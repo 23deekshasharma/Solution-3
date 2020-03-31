@@ -1,0 +1,7 @@
+query=input()   # de
+list=[i for i in input().split(' ')]  # dog deer deal
+answer=[]
+for i in list:
+  if (i[:len(query)]==query):
+    answer.append(i)
+print(answer)     #['deer','deal']
